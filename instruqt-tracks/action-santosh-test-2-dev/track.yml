@@ -1,9 +1,7 @@
-slug: action-santosh-test-1-dev
-title: DEV - action-santosh-Test-1
+slug: action-santosh-test-2-dev
+title: DEV - action-santosh-Test-2
 teaser: Use a virtual machine (VM) as a sandbox host
 description: |-
-  # TEST
-
   This template shows you how to use a Virtual Machine (VM). VMs can be used when you need more compute and memory or for running Docker containers.
 
   **This track demonstrates how to:**
@@ -17,5 +15,5 @@ tags:
 owner: instruqt-support
 developers:
   - santosh@instruqt.com
-checksum: "9102236081658552219"
+checksum: "6716150370409467865"
 maintenance: true
