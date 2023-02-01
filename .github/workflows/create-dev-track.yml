@@ -4,7 +4,7 @@
 # This workflow will convert the provided track-slug into a DEV variant
 #
 ##############################################################################
-name: convert
+name: Convert-Dev-Track
 
 env:
   INSTRUQT_TOKEN: ${{ secrets.INSTRUQT_TOKEN }}
@@ -37,6 +37,12 @@ jobs:
         uses: ./.github/actions/track-dev
         with:
           path: ${{ env.TRACK_DIR }}/${{ inputs.slug }}
+      
+      - name: Copy Track
+        run: |
+          mkdir -p ${{ env.TRACK_DIR }}/${{ inputs.slug }}-dev
+          cd ${{ env.TRACK_DIR }}
+          cp -R ${{ inputs.slug }}/. ${{ inputs.slug }}-dev
 
       - name: Push dev tracks
         uses: ./.github/actions/track-push
