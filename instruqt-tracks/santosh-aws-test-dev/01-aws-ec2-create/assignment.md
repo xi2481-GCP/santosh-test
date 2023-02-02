@@ -1,24 +1,23 @@
 ---
 slug: aws-ec2-create
-id: xqlfbx4m03nd
 type: challenge
 title: Create an AWS EC2 instance
 teaser: Every cloud starts from VM
 notes:
-- type: text
-  contents: |-
-    You're about to create an EC2 instance using AWS CLI.
+  - type: text
+    contents: |-
+      You're about to create an EC2 instance using AWS CLI.
 
-    Please wait while we provision the AWS account.
+      Please wait while we provision the AWS account.
 tabs:
-- title: Cloud CLI
-  type: terminal
-  hostname: cloud-client
-- title: AWS Console
-  type: service
-  hostname: cloud-client
-  path: /
-  port: 80
+  - title: Cloud CLI
+    type: terminal
+    hostname: cloud-client
+  - title: AWS Console
+    type: service
+    hostname: cloud-client
+    path: /
+    port: 80
 difficulty: basic
 timelimit: 600
 ---

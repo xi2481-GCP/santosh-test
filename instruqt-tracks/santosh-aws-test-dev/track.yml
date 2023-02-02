@@ -1,5 +1,4 @@
 slug: santosh-aws-test-dev
-id: d4pyckdlj0m9
 title: DEV - Santosh-AWS-test
 teaser: Learn how to build tracks with an AWS account
 description: |-
@@ -14,11 +13,11 @@ description: |-
   The default settings of this track only allow t2.nano sized ec2 instances. You should adjust the IAM policy to fit your own use case and application size.
 icon: https://cdn.instruqt.com/assets/templates/aws.png
 tags:
-- Cloud Account
-- Docker
-- dev
+  - Cloud Account
+  - Docker
+  - dev
 owner: instruqt-support
 developers:
-- santosh@instruqt.com
+  - santosh@instruqt.com
+checksum: "2653924458352570478"
 maintenance: true
-checksum: "11504990852869210745"
