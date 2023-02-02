@@ -1,0 +1,15 @@
+slug: santosh-aws-test
+id: 0ygl0kc4cqai
+title: Santosh-AWS-test
+teaser: Learn how to build tracks with an AWS account
+description: '# Testing track 3'
+icon: https://cdn.instruqt.com/assets/templates/aws.png
+tags:
+- Cloud Account
+- Docker
+- prod
+owner: instruqt-support
+developers:
+- santosh@instruqt.com
+maintenance: false
+checksum: "18075549208655770406"
